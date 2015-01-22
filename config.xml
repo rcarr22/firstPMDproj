@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<widget xmlns   = "http://www.w3.org/ns/widgets"
+<widget xmlns   = "http://www.w3.org/ns/widgets "
   xmlns:gap   = "http://phonegap.com/ns/1.0"
-  id          = "com.phonegap.example"
+  id          = "com.abbas411.pg1"
   versionCode = "10" 
-  version     = "1.0.0"
->
+  version     = "1.0.0"  >
 <!-- versionCode is optional and Android only -->
 
-  <name>Hello World</name>
+  <name>Spring 2015</name>
   <description>
     An example for phonegap build docs. 
   </description>
-  <author href="https://mywebsite.com" email="my.name@gmail.com">
-    FirstName LastName
+  <author href="https://abbas411.com" email="13carr7738@pit.edu">
+    Ryan  Carr
   </author>    
   <!-- whitelist below of external domains allowed -->
   <access origin="http://google.com" />
   <access origin="http://yahoo.com" />
-  <icon src="dice.png">
-
+  <icon src="dice.png" gap:platform="android"/>
+ 
 </widget>
